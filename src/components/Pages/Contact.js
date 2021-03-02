@@ -4,7 +4,7 @@ import '../../styles/Pages/Contact.css'
 function Contact() {
     return (
         <>
-            <section class="contact" id="contact">
+            <section className="contact" id="contact">
                 <div className="max-width">
                     <h2 class="title">Contact me</h2>
                     <div className="contact-content">

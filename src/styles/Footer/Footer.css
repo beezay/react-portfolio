@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+footer{
+    font-family: Poppins, sans-serif;
+    background: #1e212d8e;
+    padding: 5px 23px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer span a{
+    color: #91091e;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../../styles/Navbar/navbar.css'
+import activeStyles from '../../styles/ActiveNav'
 import navList from '../../data/nav-data'
 
 import Home from '../Pages/Home'
@@ -8,12 +9,15 @@ import Skills from '../Pages/Skills'
 import Contact from '../Pages/Contact'
 
 
+
+
 class Navbar extends Component {
     constructor(props) {
         super(props)
     
         this.state = {
-             showPage: 'Home'
+             showPage: 'Home',
+            
         }
     }
     
@@ -24,11 +28,15 @@ class Navbar extends Component {
                 {/* <!-- *********NAVBAR*************** --> */}
                 <nav className="navbar">
                     <div className="max-width">
-                        <div className="logo"><button>Portfo<span>lio.</span> </button></div>
+                        <div className="logo"><button onClick={() => this.setState(
+                                    {
+                                        showPage: 'Home'
+                                    }
+                                )}>Portfo<span>lio.</span> </button></div>
                         <ul className="menu">
                             {navList.map(list => {
                                return (
-                                <li><button onClick={() => this.setState(
+                                <li><button style={this.state.showPage === list.name ? activeStyles: {} } onClick={() => this.setState(
                                     {
                                         showPage: list.name
                                     }

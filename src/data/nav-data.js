@@ -1,15 +1,18 @@
 const navList = [
     {
         id:1,
-        name: 'Home'
+        name: 'Home',
+        active: false
     },
     {
         id:2,
-        name: 'About'
+        name: 'About',
+        active: false
     },
     {
         id:3,
-        name: 'Services'
+        name: 'Services',
+        active: false
     },
     {
         id:4,

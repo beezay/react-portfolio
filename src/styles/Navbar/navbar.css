@@ -88,5 +88,6 @@
 
 .navbar .menu li button:hover,
 .navbar .logo button:hover, .navbar.sticky .logo button:hover {
-    color: #312f2fc0;
+    color: #ea2c62;
+    transform: scale(1.1);
 }

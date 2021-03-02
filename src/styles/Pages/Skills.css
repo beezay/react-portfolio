@@ -69,16 +69,46 @@
 }
 .skills-content .right .html::before{
     width: 90%;
+    animation: increase-html 0.5s ease-in;
 }
 .skills-content .right .css::before{
     width: 60%;
+    animation: increase-css 0.5s ease-in;
 }
 .skills-content .right .js::before{
     width: 80%;
+    animation: increase-js 0.5s ease-in;
 }
 .skills-content .right .php::before{
     width: 50%;
+    animation: increase-php 0.5s ease-in;
 }
 .skills-content .right .mysql::before{
     width: 70%;
+    animation: increase-mysql 0.5s ease-in;
+}
+
+@keyframes increase-html{
+    from {width: 10%;}
+    to {width: 90%;}
+}
+
+@keyframes increase-css{
+    from {width: 10%;}
+    to {width: 60%;}
+}
+
+@keyframes increase-js{
+    from {width: 10%;}
+    to {width: 80%;}
+}
+
+@keyframes increase-php{
+    from {width: 10%;}
+    to {width: 50%;}
+}
+
+@keyframes increase-mysql{
+    from {width: 10%;}
+    to {width: 70%;}
 }
