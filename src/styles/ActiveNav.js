@@ -1,5 +1,3 @@
-import { act } from "@testing-library/react"
-
 const activeStyles = {
     // backgroundColor: '#f7f7e8',
     color: '#ea2c62',
