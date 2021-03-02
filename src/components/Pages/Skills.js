@@ -17,7 +17,7 @@ function Skills() {
                                 recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi.
                                 Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam
                                 alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                            <a href="#">Read more</a>
+                            <button>Read more</button>
                         </div>
                         <div class="column right">
                             <div class="bars">
