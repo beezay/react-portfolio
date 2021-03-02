@@ -71,7 +71,7 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .right button{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -82,8 +82,10 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+    border-style: none;
 }
-.about .about-content .right a:hover{
+.about .about-content .right button:hover{
     color: crimson;
     background: none;
+    border: 2px solid #0f3460;
 }

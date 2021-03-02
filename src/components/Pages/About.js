@@ -21,7 +21,7 @@ const About = () => {
                                 accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus
                                 veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis
                                 beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                            <a href="#">Download CV</a>
+                            <button>Download CV</button>
                         </div>
                     </div>
                 </div>
